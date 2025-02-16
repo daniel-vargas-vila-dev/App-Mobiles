@@ -19,7 +19,7 @@ class AgendaActivity : ComponentActivity() {
     private lateinit var eventAdapter: ArrayAdapter<String>
     private lateinit var selectedDate: String
 
-    // Nouveau lanceur d'activité pour récupérer le résultat
+
     private val addEventLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
@@ -52,7 +52,7 @@ class AgendaActivity : ComponentActivity() {
         val tvSelectedDate = findViewById<TextView>(R.id.tvSelectedDate)
         val listView = findViewById<ListView>(R.id.lvEvents)
         val btnAddEvent = findViewById<Button>(R.id.btnAddEvent)
-        val btnRetourAccueil = findViewById<Button>(R.id.btnRetourAccueil)  // Ajout du bouton
+        val btnRetourAccueil = findViewById<Button>(R.id.btnRetourAccueil)
 
 
         eventAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mutableListOf())
@@ -68,7 +68,7 @@ class AgendaActivity : ComponentActivity() {
         btnAddEvent.setOnClickListener {
             //showAddEventDialog()
             val intent = Intent(this, AddEventActivity::class.java)
-            addEventLauncher.launch(intent)  // Utilisation du lanceur d'activité
+            addEventLauncher.launch(intent)
         }
 
         listView.setOnItemClickListener { _, _, position, _ ->
@@ -107,7 +107,7 @@ class AgendaActivity : ComponentActivity() {
 
 
     private fun updateEventsList() {
-        val filteredEvents = eventList.filter { it.date == selectedDate } //.map { it.titre }
+        val filteredEvents = eventList.filter { it.date == selectedDate }
 
         val eventStrings = filteredEvents.map { event ->
             val heureDebut = event.heureDebut ?: "Heure non précisée"

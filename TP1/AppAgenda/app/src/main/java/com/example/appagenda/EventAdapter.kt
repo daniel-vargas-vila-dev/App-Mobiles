@@ -26,7 +26,7 @@ class EventAdapter(
         val view = convertView ?: LayoutInflater.from(context).inflate(R.layout.item_event, parent, false)
 
         val tvEventName = view.findViewById<TextView>(R.id.tvEventName)
-        val tvEventDetails = view.findViewById<TextView>(R.id.tvEventDetails) // Ajout du champ manquant
+        val tvEventDetails = view.findViewById<TextView>(R.id.tvEventDetails)
         val btnEdit = view.findViewById<ImageView>(R.id.btnEditEvent)
         val btnDelete = view.findViewById<ImageView>(R.id.btnDeleteEvent)
 

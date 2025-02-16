@@ -52,17 +52,12 @@ class ListeEvenementsActivity : ComponentActivity() {
         setContentView(R.layout.activity_liste_evenements)
 
         val listView = findViewById<ListView>(R.id.lvTousEvenements)
-        val btnRetourAccueil = findViewById<Button>(R.id.btnRetourAccueil)  // Ajout du bouton
+        val btnRetourAccueil = findViewById<Button>(R.id.btnRetourAccueil)
 
         loadEvents() // Charge les événements enregistrés
 
         eventAdapter = EventAdapter(this, eventList, ::deleteEvent, ::editEvent)
-
-        //eventAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mutableListOf())
         listView.adapter = eventAdapter
-
-        //loadEvents() // Charge les événements enregistrés
-        //updateEventsList()
 
         listView.setOnItemClickListener { _, _, position, _ ->
             val event = eventList[position]
@@ -104,15 +99,6 @@ class ListeEvenementsActivity : ComponentActivity() {
         }
         editEventLauncher.launch(intent)
     }
-/*
-    private fun updateEventsList() {
-        val sortedEvents = eventList.sortedBy { it.date }
-        val eventStrings = sortedEvents.map { "${it.titre} - ${it.date}" }
-
-        eventAdapter.clear()
-        eventAdapter.addAll(eventStrings)
-        eventAdapter.notifyDataSetChanged()
-    }*/
 
     private fun loadEvents() {
         val sharedPreferences = getSharedPreferences("AgendaPrefs", Context.MODE_PRIVATE)

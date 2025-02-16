@@ -75,8 +75,8 @@ class AddEventActivity : ComponentActivity() {
 
             if (titre.isNotEmpty()) {
                 val resultIntent = Intent().apply {
-                    putExtra("EXTRA_POSITION", position)  // Ajout de la position
-                    putExtra("EXTRA_DATE", intent.getStringExtra("EXTRA_DATE")) // Ajout de la date
+                    putExtra("EXTRA_POSITION", position)
+                    putExtra("EXTRA_DATE", intent.getStringExtra("EXTRA_DATE"))
                     putExtra("EXTRA_TITRE", titre)
                     putExtra("EXTRA_DESCRIPTION", description)
                     putExtra("EXTRA_HEURE_DEBUT", heureDebut)
