@@ -2,6 +2,13 @@
 
 ## TP1
 
+Les vidéos de chaque exercice sont également présents dans ce dépôt.
+
+### HelloWorld
+
+Application de base affichant Hello World avec un font et une couleur spécifique de texte et un fond d'écran gris obscur.
+Il s'agit juste d'une application pour découvrir Android Studio.
+
 ### Exo3
 
 Ce dossier correspondant aux exercices 3 à 7, il s'agit donc de la création d'un formulaire qui demande des informations à l'utilisateur. Ensuite l'application ouvre l'application Téléphone avec le numéro pré rempli que l'utilisateur a saisi dans le formulaire.
