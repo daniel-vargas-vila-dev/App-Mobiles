@@ -15,3 +15,5 @@ Il s'agit d'une application simple (sans utilisations d'API) de recherches d'iti
 Cette application joue le rôle d'un agenda. La persistance de données a été gérée ici. Donc on pourra bien utiliser cette application comme une vrai application mobile. On peut créer autant d'évènements qu'on veut et y accéder avec leurs détails spécifiés tels que le titre, la description, l'heure de début et l'heure de fin de l'évènement, la localisation et le marquer associé. Nous pouvons aussi les modifier ainsi que les supprimer à volonté dans la section où on a tous nos évènements afffichés.
 
 ## TP2
+
+En cours...
