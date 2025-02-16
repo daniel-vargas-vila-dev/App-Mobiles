@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fond3_agenda">
+
+    <!-- Affichage du calendrier -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Liste des événements associés à une date -->
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/date_selectionnee"
+        android:layout_marginBottom="8dp"/>
+
+
+    <!-- Bouton pour ajouter un événement -->
+    <ListView
+        android:id="@+id/lvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        />
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ajouter_evenement"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F1C17B"/>
+
+    <Button
+        android:id="@+id/btnRetourAccueil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ret_accueil"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E2E4E4"/>
+
+
+</LinearLayout>

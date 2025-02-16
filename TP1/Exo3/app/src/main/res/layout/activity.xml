@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/f"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/formIcon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consigne"
+        android:textSize="17dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#545C63"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/nom"
+        android:layout_marginLeft="12dp"
+        />
+
+    <EditText
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_nom"
+        android:drawableLeft="@drawable/icone_user"
+        android:drawablePadding="10dp"
+        android:background="@drawable/round_corner"
+        android:layout_margin="8dp"
+        android:padding="15dp"
+        android:backgroundTint="#30ffffff"
+        android:textSize="16dp"
+        android:textStyle="italic"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prenom"
+        android:layout_marginLeft="12dp"
+        />
+
+    <EditText
+        android:id="@+id/etPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_prenom"
+        android:drawableLeft="@drawable/icone_user"
+
+        android:drawablePadding="10dp"
+        android:background="@drawable/round_corner"
+        android:layout_margin="8dp"
+        android:padding="15dp"
+        android:backgroundTint="#30ffffff"
+        android:textSize="16dp"
+        android:textStyle="italic"
+
+
+        />
+
+    <!-- Label + Champ Âge -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:layout_marginLeft="12dp"
+        />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/label_age"
+        android:textSize="16dp"
+        android:drawableLeft="@drawable/age"
+        android:drawablePadding="10dp"
+        android:background="@drawable/round_corner"
+        android:layout_margin="8dp"
+        android:padding="15dp"
+        android:backgroundTint="#30ffffff"
+        android:textStyle="italic"
+
+        />
+
+    <!-- Label + Champ Domaine de Compétences -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/domain"
+        android:layout_marginLeft="12dp"
+        />
+
+    <EditText
+        android:id="@+id/etDomaine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre domaine"
+        android:drawableLeft="@drawable/domain"
+        android:drawablePadding="10dp"
+        android:background="@drawable/round_corner"
+        android:layout_margin="8dp"
+        android:padding="15dp"
+        android:backgroundTint="#30ffffff"
+        android:textSize="16dp"
+        android:textStyle="italic"
+
+        />
+
+    <!-- Label + Champ Numéro de téléphone -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel"
+        android:layout_marginLeft="12dp"
+        />
+
+    <EditText
+        android:id="@+id/etTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/label_tel"
+        android:drawablePadding="10dp"
+        android:background="@drawable/round_corner"
+        android:layout_margin="8dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/phone"
+        android:backgroundTint="#30ffffff"
+        android:textSize="16dp"
+        android:textStyle="italic"
+
+        />
+
+    <!-- Bouton Valider -->
+    <Button
+        android:id="@+id/btnValider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="@drawable/button_round"
+        android:backgroundTint="#F1766D"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_margin="30dp"
+        android:padding="1dp"/>
+
+
+
+</LinearLayout>

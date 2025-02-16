@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond5"
+    android:padding="35dp">
+
+    <ListView
+        android:id="@+id/lvTousEvenements"
+        android:layout_width="wrap_content"
+        android:layout_height="599dp" />
+
+    <Button
+        android:id="@+id/btnRetourAccueil"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/options_style"
+        android:backgroundTint="#E2E4E4"
+        android:text="@string/ret_accueil"
+        android:layout_margin="1dp"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppAgenda</string>
+    <string name="date_selectionnee">Events for the selected date:</string>
+    <string name="ajouter_evenement">Add an event</string>
+    <string name="titre_dialog">New event</string>
+    <string name="hint_nom_evenement">Event name</string>
+    <string name="confirmer">Confirm</string>
+    <string name="annuler">Cancel</string>
+    <string name="ret_accueil"> 🏠 Back to home</string>
+    <string name="obl"> The title is mandatory </string>
+
+
+    <string name="hint_titre">Event title</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_heure_debut">Start time:</string>
+    <string name="hint_heure_fin">End time:</string>
+    <string name="hint_localisation">Location</string>
+    <string name="hint_marqueur">Marker:</string>
+
+    <string name="titre">AgendaForEveryone</string>
+    <string name="bienvenue">Welcome to your Agenda</string>
+    <string name="calendrier"> 📅 Access the calendar</string>
+    <string name="notes"> 📋 List of events</string>
+
+
+    <string name="supprimer_evenement">Delete event</string>
+    <string name="confirmation_suppression">Do you really want to delete this event?</string>
+    <string name="oui">Yes</string>
+
+
+    <string name="marqueur_urgent">Urgent</string>
+    <string name="marqueur_tres_urgent">Very urgent</string>
+    <string name="marqueur_ecole">School</string>
+    <string name="marqueur_sport">Sport</string>
+    <string name="marqueur_travail">Work</string>
+    <string name="marqueur_famille">Family</string>
+    <string name="marqueur_amis">Friends</string>
+
+
+    <string name="evenements_pour">Events for %1$s :</string>
+    <string name="details_evenement">Event details</string>
+    <string name="description">📝 Description: %1$s</string>
+    <string name="heure_debut">🕒 Start: %1$s</string>
+    <string name="heure_fin">⏳ End: %1$s</string>
+    <string name="localisation">📍 Location: %1$s</string>
+    <string name="marqueur">🏷 Marker: %1$s</string>
+    <string name="ok">OK</string>
+    <string name="no_desc"> No description </string>
+
+
+
+
+</resources>

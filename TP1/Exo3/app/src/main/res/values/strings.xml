@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Exo3</string>
+    <string name="display_activity_title">Affichage des Informations</string>
+    <string name="third_activity_title">Nouvelle Activité</string>
+    <string name="consigne">Veuillez remplir les informations ci-dessous :</string>
+    <string name="label_nom">Entrez votre nom</string>
+    <string name="label_prenom">Entrez votre prénom</string>
+    <string name="label_age">Entrez votre âge</string>
+    <string name="label_domain">Entrez votre domaine</string>
+    <string name="label_tel">Entrez votre numéro de téléphone</string>
+    <string name="nom">Nom :</string>
+    <string name="prenom">Prénom :</string>
+    <string name="age">Âge :</string>
+    <string name="domain">Domaine de compétences :</string>
+    <string name="tel">Numéro de téléphone :</string>
+    <string name="submit">Valider</string>
+    <string name="confirm_title">Confirmation</string>
+    <string name="confirm_message">Voulez-vous vraiment valider ces informations ?</string>
+    <string name="yes">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="validation_success">Informations validées avec succès !</string>
+    <string name="validation_error">Veuillez remplir tous les champs avant de valider.</string>
+    <string name="formIcon"> Icone formulaire </string>
+    <string name="phone_icon">Icône téléphone</string>
+    <string name="call_button">Appeler</string>
+    <string name="ok">OK</string>
+    <string name="ret">Retour</string>
+    <string name="infos">Vos informations ont été enregistrées !</string>
+
+</resources>

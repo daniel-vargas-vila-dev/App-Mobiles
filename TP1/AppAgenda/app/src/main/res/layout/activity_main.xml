@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/fond_agenda">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/siraman"
+        android:text="@string/titre"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/skrine"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="127dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/calendrier_icon"
+
+            />
+
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/notes_icon"
+            android:layout_marginLeft="40dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAgenda"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/calendrier"
+            android:background="@drawable/options_style"
+            android:backgroundTint="#FB887F"/>
+
+        <Button
+            android:id="@+id/btnListeEvenements"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:text="@string/notes"
+            android:layout_margin="10dp"
+            android:background="@drawable/options_style"
+            android:backgroundTint="#F1C47F"/>
+    </LinearLayout>
+
+</LinearLayout>

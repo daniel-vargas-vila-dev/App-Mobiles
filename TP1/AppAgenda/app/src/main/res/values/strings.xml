@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">AppAgenda</string>
+    <string name="date_selectionnee">Événements pour la date sélectionnée :</string>
+    <string name="ajouter_evenement">Ajouter un événement</string>
+    <string name="titre_dialog">Nouvel événement</string>
+    <string name="hint_nom_evenement">Nom de l\'événement</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="annuler">Annuler</string>
+    <string name="ret_accueil"> 🏠 Retour à l\'accueil</string>
+    <string name="obl"> Le titre est obligatoire </string>
+
+    <string name="hint_titre">Titre de l\'événement</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_heure_debut">Heure de début :</string>
+    <string name="hint_heure_fin">Heure de fin :</string>
+    <string name="hint_localisation">Localisation</string>
+    <string name="hint_marqueur">Marqueur :</string>
+
+    <string name="titre"> AgendaPourTous </string>
+    <string name="bienvenue"> Bienvenue dans votre Agenda </string>
+    <string name="calendrier"> 📅 Accéder au calendrier</string>
+    <string name="notes"> 📋 Liste des évènements</string>
+
+    <string name="marqueur_urgent">Urgent</string>
+    <string name="marqueur_tres_urgent">Très urgent</string>
+    <string name="marqueur_ecole">École</string>
+    <string name="marqueur_sport">Sport</string>
+    <string name="marqueur_travail">Travail</string>
+    <string name="marqueur_famille">Famille</string>
+    <string name="marqueur_amis">Amis</string>
+
+
+    <string name="evenements_pour">Événements pour le %1$s :</string>
+    <string name="details_evenement">Détails de l\'événement</string>
+    <string name="description">📝 Description: %1$s</string>
+    <string name="heure_debut">🕒 Début: %1$s</string>
+    <string name="heure_fin">⏳ Fin: %1$s</string>
+    <string name="localisation">📍 Localisation: %1$s</string>
+    <string name="marqueur">🏷 Marqueur: %1$s</string>
+    <string name="ok">OK</string>
+    <string name="no_desc"> Pas de description </string>
+
+
+    <string name="supprimer_evenement">Supprimer l\'événement</string>
+    <string name="confirmation_suppression">Voulez-vous vraiment supprimer cet événement ?</string>
+    <string name="oui">Oui</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="428dp"
+        android:layout_height="189dp"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="-10dp"
+        android:src="@drawable/train_fond" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DefaultTextStyle"
+        android:text="FreedomTravels"
+        android:layout_marginStart="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TitleTextStyle"
+        android:text="@string/research"
+        android:layout_marginStart="10dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editTextDepart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_depart"
+        android:background="@drawable/champ_saisie"
+        android:padding="12dp"
+        android:layout_margin="6dp"
+        android:textStyle="italic"
+        />
+
+    <EditText
+        android:id="@+id/editTextArrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_arrivee"
+        android:background="@drawable/champ_saisie"
+        android:padding="12dp"
+        android:layout_margin="6dp"
+        android:textStyle="italic"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="12dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="#6DBBFA"
+        android:text="@string/label_date" />
+
+    <Button
+        android:id="@+id/buttonHeure"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/button_round"
+        android:backgroundTint="#6DBBFA"
+        android:text="@string/label_heure" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/date_select"
+        android:padding="8dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewHeure"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/heure_select"
+        android:padding="8dp"
+        android:layout_marginStart="10dp"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_rechercher"
+        android:background="@drawable/button_round"
+        android:backgroundTint="#6DBBFA"
+        android:layout_margin="12dp"/>
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/social_media_icon"/>
+
+
+</LinearLayout>

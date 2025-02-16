@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="428dp"
+        android:layout_height="189dp"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/train_confirm" />
+
+    <TextView
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:gravity="center"
+        android:text="@string/confirmation"
+        android:layout_marginBottom="-30dp"/>
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="89dp"
+        android:src="@drawable/check"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        style="@style/SubtitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mail" />
+
+    <Button
+        android:id="@+id/buttonRechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rev_accueil"
+        android:background="@drawable/button_round"
+        android:backgroundTint="#6DBBFA"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

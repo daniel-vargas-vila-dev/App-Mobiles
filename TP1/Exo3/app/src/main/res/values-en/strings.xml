@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exo3</string>
+    <string name="display_activity_title">Affichage des Informations</string>
+    <string name="third_activity_title">Nouvelle Activité</string>
+    <string name="consigne">Please fill in the information below</string>
+    <string name="label_nom">Enter your last name</string>
+    <string name="label_prenom">Enter your first name</string>
+    <string name="label_age">Enter your age</string>
+    <string name="label_domain">Enter your field</string>
+    <string name="label_tel">Enter your phone number</string>
+    <string name="nom">Last Name :</string>
+    <string name="prenom">First Name :</string>
+    <string name="age">Age :</string>
+    <string name="domain">Field of Expertise :</string>
+    <string name="tel">Phone Number :</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_title">Confirmation</string>
+    <string name="confirm_message">Do you really want to validate this information?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="validation_success">Information successfully validated!</string>
+    <string name="validation_error">Please fill in all fields before validating.</string>
+    <string name="formIcon"> Form Icon </string>
+    <string name="phone_icon">Cellphone icon</string>
+    <string name="call_button">Call</string>
+    <string name="ok">OK</string>
+    <string name="ret">Return</string>
+    <string name="infos">Your information has been saved !</string>
+
+</resources>
